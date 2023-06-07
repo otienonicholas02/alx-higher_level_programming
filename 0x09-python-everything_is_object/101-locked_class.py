@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-""" LockedClass
-"""
+"""locked class module"""
 
 
 class LockedClass:
-    __slots__ = ['last_name']
+    """LockedClass
+
+        attr:
+            __slots__ (private attribute)
+    """
+    __slots__ = ['first_name']
