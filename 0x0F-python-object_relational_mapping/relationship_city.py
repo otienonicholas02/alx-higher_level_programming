@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains the class definition 
+Contains the class definition
 """
 from relationship_state import Base
 from sqlalchemy import Column, Integer, String, ForeignKey
